@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/page.css">        
+        <title>Ejercicios Tarea 4</title>
+    </head>
+    <body>
+        <section class="contenedor">
+            <h1>Ejercicios del 1 al 7</h1>
+            <form action="../index.html">
+                 <textarea  id="resp" rows="5" cols="3">
+                </textarea>
+                <div class="operaciones">
+                    <div class="grupo">
+                        <input type="text" id="num1" />
+                    </div>
+                    <div class="grupo">
+                        <input type="text" id="num2" />
+                    </div>
+                </div>
+                
+                <div class="grupo">
+                    <button type="button" onclick="ejer.sumaNumerosPerfectos()">Suma de perfectos</button>
+                    <button type="button" onclick="ejer.numPrimos()">Primos</button>
+                    <button type="button" onclick="ejer.baseexponente()">Base y exponente</button>
+                    <button type="button" onclick="ejer.exponentePropio()">Elevarlo igual que su base</button>
+                    <button type="button" onclick="ejer.tablaMultiplicar()">Tabla de multiplicar</button>
+                    <button type="button" onclick="ejer.divisoresValorInicial()">Arreglo de divisores </button>
+                    <button type="button" onclick="ejer.sumaDivisores()">Suma de divisores</button>
+                    <button type="button" onclick="cal.limpiar()">Limpiar</button>
+                    <button type="submit">Regresar</button>
+                </div>
+               
+            </form>
+        </section>
+         <script src="../js/calculadora.js">
+            
+         </script>
+    </body>
+</html>
