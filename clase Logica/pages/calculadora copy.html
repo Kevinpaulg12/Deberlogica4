@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/page.css">        
+        <title>Ejercicios Tarea 4</title>
+    </head>
+    <body>
+        <section class="contenedor">
+            <h1>Ejercicios del 8 al 15</h1>
+            <form action="../index.html">
+                 <textarea  id="resp" rows="5" cols="50">
+                </textarea>
+                <div class="operaciones">
+                    <div class="grupo">
+                        <input type="text" id="num1" />
+                    </div>
+                    <div class="grupo">
+                        <input type="text" id="num2" />
+                    </div>
+                </div>
+                
+                <div class="grupo">
+                    <button type="button" onclick="ejer.retornarArreglo()">Retornar un arreglo </button>
+                    <button type="button" onclick="ejer.sumaDeDigitos()">Sumar sus digitos</button>
+                    <button type="button" onclick="ejer.digitosPares()">Digitos pares</button>
+                    <button type="button" onclick="ejer.primerDigito()">Presentar el primer digito</button>
+                    <button type="button" onclick="ejer.ulDigito()">Presentar el ultimo digito</button>
+                    <button type="button" onclick="ejer.factonum()">Retornar el factorial </button>
+                    <button type="button" onclick="ejer.factorialarre()">Presentar factorial</button>
+                    <button type="button" onclick="ejer.arregloRango()">Presentar el arreglo</button>
+                    <button type="button" onclick="ejer.limpiar()">Limpiar</button>
+                    <button type="submit">Regresar</button>
+                </div>
+               
+            </form>
+        </section>
+         <script src="../js/calculadora.js">
+            
+         </script>
+    </body>
+</html>
