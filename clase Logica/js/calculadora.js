@@ -1,10 +1,11 @@
 class Tarea2{
-    perfecto(num){
-       let sumaDivisores = 0;
-       for (let i = 1; i < num; i++) {
-       if (num % i == 0) {
-       sumaDivisores += i;
-   }
+    let a, b, c, resultado;
+
+a = parseFloat(prompt("Digite el valor de A: "));
+b = parseFloat(prompt("Digite el valor de B: "));
+c = parseFloat(prompt("Digite el valor de C: "));
+
+resultado = (-b + Math.sqrt(b ** 2 - 4 * a * c)) / (2 * a);
    }
      return sumaDivisores == num;
    }
